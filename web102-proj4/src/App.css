@@ -1,0 +1,101 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  width: 100%;
+}
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: auto;
+  gap: 20px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+.cats {
+    width: 400px;
+    height: auto;
+    max-height: 400px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+
+h1 {
+  color: #ff6347;
+}
+
+button {
+  background-color: #ebe5e4;
+  color: rgb(237, 98, 98);
+  border: 1px solid red;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff4500;
+  color: rgb(255, 255, 255);
+
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  
+}
+
+.item-container {
+  margin-top: 20px;
+}
+
+.item-container img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.ban-list {
+  margin-top: 30px;
+}
+
+.ban-list h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.ban-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ban-list li {
+  background: #ffe4e1;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
