@@ -26,7 +26,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 * [x] List anything else that you added to improve the site's functionality!
-      You can ban the cat itself
+- You can ban the cat itself
 
 ## Video Walkthrough
 
